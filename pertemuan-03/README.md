@@ -1,7 +1,7 @@
 # pertemuan-03
 
 NIM : 2511500069<br>
-Nama : Putri S. N. Tampubolon<br>
+Nama : Putri S. N. Tampubolon<br><br>
 
 Hari ini, Kamis 09 Oktober 2025, saya belajar:
 <ol>

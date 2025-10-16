@@ -5,16 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Judul Halaman</title>
   <style>
-  #about {
-    background-color: #ffff;
-    border-radius: 10px;
-    padding: 20px;
-    max-width: 700px;
-    margin: 20px auto;
-    box-shadow: 0 2px 5px  rgba(0, 0, 0, 0.1);
-  }
-  
-  #contact{
+  #about,
+  #contact {
     background-color: #ffff;
     border-radius: 10px;
     padding: 20px;
@@ -23,7 +15,8 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 
-  #about h2 {
+  #about h2,
+  #contact h2 {
      color: #003366;
      border-bottom: 2px solid #003366;
      padding-bottom: 6px;
@@ -31,7 +24,8 @@
      margin-bottom: 16px;
   }
 
-  #about p {
+  #about p,
+  #contact label {
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
@@ -40,7 +34,8 @@
     border-bottom: 1px solid #e6e6e6;
   }
 
-  #about strong {
+  #about strong,
+  #contact label>span {
     min-width: 180px;
     color: #003366;
     font-weight: 600;
@@ -110,33 +105,7 @@
     </form>
 </section>
 <style>
-#contact{
-  background: #f566be;
-  padding: 30px;
-  border-radius: 10px;
-}
 
-#contact h2{
-  text-align: center;
-}
-
-#contact input,
-#contact textarea {
-  width: 100%;
-  margin: 8px 0;
-  padding: 8px;
-  border: 1px solid #fdb8da;
-  border-radius: 5px;
-}
-
-#contact button{
-  width: 100%;
-  padding: 10px;
-  background: #f566be;
-  color: #fdb8da;
-  border: none;
-  border-radius: 5px;
-}
 
 </style>
 </main>

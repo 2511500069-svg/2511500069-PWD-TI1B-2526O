@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background: #003366;
+    background: #6c9bc2;
     color:#fff;
     padding: 20px;
     text-align: center;
@@ -39,7 +39,7 @@ header li a {
     padding: 20px;
     max-width: 700px;
     margin: 20px auto;
-    box-shadow: 0 2px 5px rgba(145, 219, 238, 0.1);
+    box-shadow: 0 2px 5px rgba(92, 173, 194, 0.1);
   }
 
   #home h2,
@@ -96,7 +96,7 @@ text-align: justify;
 width: 100%;
 }
 footer {
-background: #222;
+background: #1d3657;
 color: #aaa;
 text-align: center;
 padding: 10px;
@@ -126,4 +126,25 @@ padding: 16px;
 position: sticky;
 top: 0;
 z-index: 1000;
+}
+
+header h1 {
+margin: 0 0 8px;
+font-size: 20px;
+line-height: 1.2;
+}
+
+header ul {
+flex-direction: column;
+align-items: stretch;
+gap: 8px;
+margin: 8px 0 0;
+}
+
+header li a {
+display: block;
+padding: 12px 14px;
+border: 1px solid rgba(255, 255, 255, .35);
+background: rgba(255, 255, 255, .08);
+backdrop-filter: saturate(120%);
 }

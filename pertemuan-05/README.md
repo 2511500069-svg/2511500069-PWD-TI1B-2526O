@@ -12,5 +12,5 @@ Hari ini, Kamis 23 Oktober 2025, saya mempelajari:
   <li>styling untuk elemen nav mobile </li>
   <li>styling untuk elemen nav mobile active </li>
   <li>menamabh file script.js</li>
-  <li>mebambah script tombol hamburger di click</li>
+  <li>menambah script tombol hamburger di click</li>
 </ol>

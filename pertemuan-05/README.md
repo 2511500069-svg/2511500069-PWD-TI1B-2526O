@@ -8,4 +8,6 @@ Hari ini, Kamis 23 Oktober 2025, saya mempelajari:
   <li>copy paste index.html dan style.css dari pertemuan-04</li>
   <li>menambah tombol hamburger</li>
   <li>styling class menu-toggle</li>
+  <li>styling class menu-toggle mobile</li>
+  <li>styling nav mobile </li>
 </ol>

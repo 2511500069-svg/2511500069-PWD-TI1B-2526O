@@ -76,7 +76,7 @@ header li a {
   flex-shrink: 0;
 }
 
-.menu-toggle{
+.menu-toggle {
   display: none;
   background: none;
   border: none;
@@ -86,12 +86,13 @@ header li a {
 }
 
 @media (max-width: 600px) {
-  .menu-toggle{
+  .menu-toggle {
     display: block;
     position: absolute;
     left: 16px;
     top: 8px;
   }
+
   nav {
     display: none;
     flex-direction: column;
@@ -99,11 +100,11 @@ header li a {
     width: 100%;
     padding: 5px 0;
   }
-  nav.active{
+
+  nav.active {
     display: flex;
   }
-
-
+  
 
   #about p,
   #contact label {
@@ -150,13 +151,7 @@ header li a:active {
   transform: translateY(1px);
 }
 
-@media (max-width: 600px) {
-  header {
-    padding: 16px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
+ 
 
   header h1 {
     margin: 0 0 8px;
@@ -178,51 +173,50 @@ header li a:active {
     background: rgba(255, 255, 255, .08);
     backdrop-filter: saturate(120%);
   }
+
+#contact input,
+#contact textarea {
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px;
+  color: #042e41;
+  font-weight: normal;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-  #contact input,
-  #contact textarea {
-    flex: 1;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    padding: 8px;
-    color: #042e41;
-    font-weight: normal;
-    margin: 0;
-    box-sizing: border-box;
-  }
+#contact button {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 24px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  margin-right: 8px;
+}
 
-  #contact button {
-    margin-top: 10px;
-    display: inline-block;
-    padding: 10px 24px;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    border: none;
-    transition: all 0.3s ease;
-    margin-right: 8px;
-  }
+#contact button[type="submit"] {
+  background-color: #5fa4c0;
+  color: #fff;
+  font-weight: 600;
+}
 
-  #contact button[type="submit"] {
-    background-color: #5fa4c0;
-    color: #fff;
-    font-weight: 600;
-  }
+#contact button[type="reset"] {
+  background-color: #b4b4b4;
+  color: #272727;
+  font-weight: 500;
+}
 
-  #contact button[type="reset"] {
-    background-color: #b4b4b4;
-    color: #272727;
-    font-weight: 500;
-  }
+#contact button[type="submit"]:hover {
+  background-color: #7ff5fd;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
 
-  #contact button[type="submit"]:hover {
-    background-color: #7ff5fd;
-    transform: translateY(-1px);
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  }
-
-  #contact button[type="reset"]:hover {
-    background-color: #cccccc;
-    transform: translateY(-1px);
-  }
+#contact button[type="reset"]:hover {
+  background-color: #cccccc;
+  transform: translateY(-1px);
+}

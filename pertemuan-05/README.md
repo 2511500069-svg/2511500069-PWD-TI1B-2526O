@@ -14,4 +14,5 @@ Hari ini, Kamis 23 Oktober 2025, saya mempelajari:
   <li>menamabh file script.js</li>
   <li>menambah script tombol hamburger di click</li>
   <li>Latihan Validasi Formulir Sebelum Submit</li>
+  <li>Latihan Ganti Teks Tombol Saat Menu Aktif</li>
 </ol>

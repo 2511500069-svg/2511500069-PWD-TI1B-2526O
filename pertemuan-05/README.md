@@ -13,4 +13,5 @@ Hari ini, Kamis 23 Oktober 2025, saya mempelajari:
   <li>styling untuk elemen nav mobile active </li>
   <li>menamabh file script.js</li>
   <li>menambah script tombol hamburger di click</li>
+  <li>Latihan Validasi Formulir Sebelum Submit</li>
 </ol>

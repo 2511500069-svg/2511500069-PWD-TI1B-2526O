@@ -12,12 +12,24 @@
 
   header {
     background: #6c9bc2;
-    color: #fff;
+    color: #225a5e;
     padding: 20px;
     text-align: center;
     position: relative;
   }
+  header ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
 
+header li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 12px;
+}
   
   #home,
   #about,
@@ -27,14 +39,14 @@
     padding: 20px;
     max-width: 700px;
     margin: 20px auto;
-    box-shadow: 0 2px 5px rgba(92, 173, 194, 0.1);
+    box-shadow: 0 2px 5px rgba(140, 149, 151, 0.637);
   }
 
   #home h2,
   #about h2,
   #contact h2 {
     color: #38b3ec;
-    border-bottom: 2px solid #dbeeee;
+    border-bottom: 2px solid #226666;
     padding-bottom: 6px;
     margin-top: 0;
     margin-bottom: 16px;
@@ -99,7 +111,7 @@
     outline: 2px solid #1d3546;
     outline-offset: 2px;
     border-radius: 6px;
-    background-color: rgba(19, 2, 2, 0.15);
+    background-color: rgba(34, 116, 163, 0.774);
   }
 
   header li a:active {

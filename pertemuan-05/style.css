@@ -15,26 +15,14 @@
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: relative;
   }
 
-  header ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-    margin: 10px 0 0;
-  }
-
-  header li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 6px 12px;
-  }
-
+  
   #home,
   #about,
   #contact {
-    background-color: #ffff;
+    background-color: #4496bd;
     border-radius: 10px;
     padding: 20px;
     max-width: 700px;
@@ -126,11 +114,16 @@
       line-height: 1.2;
     }
 
-    header ul {
+   @media  (max-width: 600px) {
+   header ul {
       flex-direction: column;
       align-items: stretch;
       gap: 8px;
-      margin: 8px 0 0;
+      display: flex;
+     justify-content: center;
+     list-style: none;
+     padding: 0;
+     margin: 10px 0 0;
     }
 
     header li a {
@@ -139,8 +132,10 @@
       border: 1px solid rgba(255, 255, 255, .35);
       background: rgba(255, 255, 255, .08);
       backdrop-filter: saturate(120%);
+      color: #8cd8f0;
+     text-decoration: none;
     }
-
+  }
     .menu-toggle {
     display: none;
     background: none;

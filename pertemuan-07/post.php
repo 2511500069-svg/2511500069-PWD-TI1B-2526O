@@ -1,6 +1,9 @@
 <?php
   session_start();
-  $sesname = $_SESSION["nama"]; 
+  $sesname = "";
+  if (!isset($_SESSION["nama"]; )):
+    $sesname = $_SESSION["nama"]; 
+  endif;
   $sesemail = $_SESSION["email"];
   $sespesan = $_SESSION["pesan"];
   

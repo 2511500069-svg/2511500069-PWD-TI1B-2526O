@@ -11,5 +11,7 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <li>menambahkan section id Entry data Mahasiswa</li>
   <li>Membuat input pada form Entry Data Mahasiswa</li>
+  <li>Menambahkan style pada section student id</li>
+  <li>Menampilkan hasil pada section about</li>
 
 </ol>

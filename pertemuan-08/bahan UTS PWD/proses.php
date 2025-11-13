@@ -13,25 +13,25 @@ session_start();
 
 $nim = $_POST["txtNIM"];
 $nama = $_POST["txtNama Lengkap"];
-$tempat = $_POST["txtTempat Lahir"];
-$tanggal = $_POST["txtTanggal Lahir"];
+$tempatlahir = $_POST["txtTempat Lahir"];
+$tanggallahir = $_POST["txtTanggal Lahir"];
 $hobi = $_POST["txtHobi"];
 $pasangan = $_POST["txtPasangan"];
 $pekerjaan = $_POST["txtPekerjaan"];
-$ortu = $_POST["txtNama Orang Tua"];
-$kakak = $_POST["txtNama Kakak"];
-$adik = $_POST["txtNama Adik"];
+$namaorangtua = $_POST["txtNama Orang Tua"];
+$namakakak = $_POST["txtNama Kakak"];
+$namaadik = $_POST["txtNama Adik"];
 
-$_SESSION["sesnim"] = $nim;
-$_SESSION["sesnama"] = $nama;
-$_SESSION["sestempat"] = $tempat;
-$_SESSION["sestanggal"] = $tanggal;
-$_SESSION["seshobi"] = $hobi;
-$_SESSION["sespasangan"] = $pasangan;
-$_SESSION["sespekerjaan"] = $pekerjaan;
-$_SESSION["sesortu"] = $ortu;
-$_SESSION["seskakak"] = $kakak;
-$_SESSION["sesadik"] = $adik;
+$_SESSION["sesnim"] = $sesnim;
+$_SESSION["sesnama"] = $sesnama;
+$_SESSION["sestempat"] = $sestempat;
+$_SESSION["sestanggal"] = $sestanggal;
+$_SESSION["seshobi"] = $seshobi;
+$_SESSION["sespasangan"] = $sespasangan;
+$_SESSION["sespekerjaan"] = $sespekerjaan;
+$_SESSION["sesortu"] = $sesortu;
+$_SESSION["seskakak"] = $seskakak;
+$_SESSION["sesadik"] = $sesadik;
 
-header("location: index.php");();
+header("location: index.php");
 ?>

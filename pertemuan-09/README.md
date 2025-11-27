@@ -11,5 +11,6 @@
   <li>tangkap session dari file proses selesai</li>
   <li>echo session ke nilai label section contact</li>
   <li>echo session ke nilai label section contact selesai</li>
-  <li>modifikasi file preses.php</li>
+  <li>modifikasi file proses.php</li>
+  <li>ganti baris 23-32 pada proses php</li>
 </ol>

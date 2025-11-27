@@ -111,7 +111,7 @@ header li a:active {
 
 #contact input,
 #contact textarea,
-#student-id textarea{
+#student-id input{
   flex: 1;
   border: 1px solid #ccc;
   border-radius: 6px;
@@ -245,7 +245,6 @@ footer {
   #contact textarea,
   #contact button,
   #student-id input,
-  #student-id textarea,
   #student-id button {
     width: 100%;
   }

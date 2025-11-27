@@ -1,3 +1,17 @@
 # pertemuan-08
 
-Catatan pertemuan 8
+silahkan sesuaikan dengan milik kalian masing-masing:<br><br>
+Hari ini, Rabu 13.NOV.2025, saya:<br>
+NIM: 2511500069<br>
+Nama: Putri S. N. Tampubolon<br>
+Kelompok: TI1B<br>
+<br>
+Proses saya mengerjakan UTS ini sebagai berikut:<br>
+<ol>
+  <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
+  <li>menambahkan section id Entry data Mahasiswa</li>
+  <li>Membuat input pada form Entry Data Mahasiswa</li>
+  <li>Menambahkan style pada section student id</li>
+  <li>Menampilkan hasil pada section about</li>
+  <li>Menambah variabel pada index.php</li>
+</ol>

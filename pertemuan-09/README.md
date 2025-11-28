@@ -17,4 +17,5 @@
   <li>menambah fieldconfig pada section about </li>
   <li>menghapus isi section about sebelumnya untuk menampilkan isi array</li>
   <li>membuat file fungsi php</li>
+  <li>tambah kode pada fungsi php </li>
 </ol>

@@ -20,7 +20,8 @@ $arrBiodata =[
 "kakak" => $_POST["txtNmKakak"] ?? "",
 "adik" => $_POST["txtNmAdik"] ?? ""
 ];
+
 $_SESSION["biodata"] = $arrBiodata;
 
-header("location: index.php#about");
+header("location: index.php#about");    
 ?>

@@ -23,4 +23,5 @@
   <li>menyertakan file fungsi.php dengan kode require_once</li>
   <li>menambah arr Kontak pada post php</li>
   <li>menangkap session kontak</li>
+  <li>membuat field Kontak</li>
 </ol>

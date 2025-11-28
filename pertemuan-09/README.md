@@ -18,4 +18,6 @@
   <li>menghapus isi section about sebelumnya untuk menampilkan isi array</li>
   <li>membuat file fungsi php</li>
   <li>tambah kode pada fungsi php </li>
+  <li>add code pada fungsi php </li>
+  <li>mengganti kode pada file index php</li>
 </ol>

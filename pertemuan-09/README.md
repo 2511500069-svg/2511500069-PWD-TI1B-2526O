@@ -24,4 +24,5 @@
   <li>menambah arr Kontak pada post php</li>
   <li>menangkap session kontak</li>
   <li>membuat field Kontak</li>
+  <li>menambah field kontak pada index </li>
 </ol>

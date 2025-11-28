@@ -21,4 +21,5 @@
   <li>add code pada fungsi php </li>
   <li>mengganti kode pada file index php</li>
   <li>menyertakan file fungsi.php dengan kode require_once</li>
+  <li>menambah arr Kontak pada post php </li>
 </ol>

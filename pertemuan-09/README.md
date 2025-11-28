@@ -14,4 +14,7 @@
   <li>modifikasi file proses.php</li>
   <li>ganti baris 23-32 pada proses php</li>
   <li>menambah fieldconfig</li>
+  <li>menambah fieldconfig pada section about </li>
+  <li>menghapus isi section about sebelumnya untuk menampilkan isi array</li>
+  <li>membuat file fungsi php</li>
 </ol>

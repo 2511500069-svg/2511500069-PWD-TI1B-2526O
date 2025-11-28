@@ -20,4 +20,5 @@
   <li>tambah kode pada fungsi php </li>
   <li>add code pada fungsi php </li>
   <li>mengganti kode pada file index php</li>
+  <li>menyertakan file fungsi.php dengan kode require_once</li>
 </ol>

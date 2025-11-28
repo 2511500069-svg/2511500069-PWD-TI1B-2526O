@@ -2,7 +2,7 @@
 session_start();
 
 $arrKontak =[
-"name" => $_POST["txtNama"] ?? "",
+"nama" => $_POST["txtNama"] ?? "",
 "email" => $_POST["txtEmail"] ?? "",
 "pesan" => $_POST["txtPesan"] ?? "",
 ];

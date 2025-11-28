@@ -22,4 +22,5 @@
   <li>mengganti kode pada file index php</li>
   <li>menyertakan file fungsi.php dengan kode require_once</li>
   <li>menambah arr Kontak pada post php</li>
+  <li>menangkap session kontak</li>
 </ol>

@@ -11,4 +11,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>download phpmyadmin dari bahan ajar </li>
   <li>menambah database name pada phpmyadmin </li>
   <li>buat nama pada database name dengan db_pwd2025 </li>
+  <li>membuat Tabel pada perintah SQL</li>
   </ol>

@@ -7,5 +7,5 @@ Kelompok: TI1B<br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>mengekstrak file pertemaun 11 ke folder pertemuan 10</li>
-  
+  <li>menambahkan kode pada file koneksiphp </li>
   </ol>

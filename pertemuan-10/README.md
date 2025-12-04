@@ -15,4 +15,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>membuat file baru yaitu read.php</li>
   <li>tambah kode pada file read php </li>
   <li>mengisi data pada tbl_tamu</li>
+  <li>modif file read_inc.php</li>
   </ol>

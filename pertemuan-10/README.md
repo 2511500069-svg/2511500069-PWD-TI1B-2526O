@@ -17,4 +17,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>mengisi data pada tbl_tamu</li>
   <li>modif file read_inc.php</li>
   <li>mengganti baris 146 pada file index.php</li>
+  <li>mengahpus baris 133-141 pada file index</li>
   </ol>

@@ -11,4 +11,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambah flash message pada file index php</li>
   <li>tampilkan flash message</li>
   <li>mengubah data yang sudah ada</li>
+  <li>mengecek request method</li>
+  <li>INSERT tbl_tamu dengan prepared statement mysqli</li>
   </ol>

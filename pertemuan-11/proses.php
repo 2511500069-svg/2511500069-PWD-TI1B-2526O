@@ -1,5 +1,7 @@
 <?php
 session_start();
+require_once __DIR__ . '/koneksi.php'
+require_once __DIR__ . '/fungsi.php'
 $nama  = bersihkan($_POST['txtNama'] ?? '');
 $email = bersihkan($_POST['txtEmail'] ?? '');
 $pesan = bersihkan($_POST['txtPesan'] ?? '');

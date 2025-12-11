@@ -6,7 +6,16 @@ Kelompok: TI1B<br>
 <br>
 Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
-  <li>mengcopy file pertemuan 10 ke pertemuan 11</li>
-  <li>mengupdate fungsi php untuk helper redirect</li>
-  <li>menambah flash message pada file index php</li>
+  <li>mengekstrak file pertemaun 11 ke folder pertemuan 10</li>
+  <li>menambahkan kode pada file koneksiphp </li>
+  <li>download phpmyadmin dari bahan ajar </li>
+  <li>menambah database name pada phpmyadmin </li>
+  <li>buat nama pada database name dengan db_pwd2025 </li>
+  <li>membuat Tabel pada perintah SQL</li>
+  <li>membuat file baru yaitu read.php</li>
+  <li>tambah kode pada file read php </li>
+  <li>mengisi data pada tbl_tamu</li>
+  <li>modif file read_inc.php</li>
+  <li>mengganti baris 146 pada file index.php</li>
+  <li>mengahpus baris 133-141 pada file index</li>
   </ol>

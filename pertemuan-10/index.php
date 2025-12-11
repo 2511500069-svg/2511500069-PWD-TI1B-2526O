@@ -108,15 +108,8 @@ require_once __DIR__ . '/fungsi.php';
       <h2>Tentang Saya</h2>
       <?= tampilkanBiodata($fieldConfig, $biodata) ?>
     </section>
+
     
-    <?php
-    $flash_sukses = $_SESSION['flash_sukses'] ?? '';
-    $flash_error  = $_SESSION['flash_error'] ?? '';
-    $old          = $_SESSION['old'] ?? [];
-
-    unset($_SESSION['flash_sukses'], $_SESSION['flash_error'], $_SESSION['old']); 
-    ?>
-
     <section id="contact">
       <h2>Kontak Kami</h2>
       <form action="proses.php" method="POST">
@@ -137,7 +130,7 @@ require_once __DIR__ . '/fungsi.php';
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
-    
+
       <br>
       <hr>
       <h2>Yang menghubungi kami</h2>

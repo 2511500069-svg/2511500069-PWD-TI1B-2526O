@@ -8,4 +8,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
 <ol>
   <li>mengcopy file pertemuan 10 ke pertemuan 11</li>
   <li>mengupdate fungsi php untuk helper redirect</li>
+  <li>menambah flash message pada file index php</li>
   </ol>

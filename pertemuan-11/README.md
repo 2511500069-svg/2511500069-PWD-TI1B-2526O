@@ -10,4 +10,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>mengupdate fungsi php untuk helper redirect</li>
   <li>menambah flash message pada file index php</li>
   <li>tampilkan flash message</li>
+  <li>mengubah data yang sudah ada</li>
   </ol>

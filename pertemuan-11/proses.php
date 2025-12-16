@@ -1,13 +1,25 @@
 <?php
 session_start();
-require_once __DIR__ . '/koneksi.php'
-require_once __DIR__ . '/fungsi.php'
-$nama  = bersihkan($_POST['txtNama'] ?? '');
-$email = bersihkan($_POST['txtEmail'] ?? '');
-$pesan = bersihkan($_POST['txtPesan'] ?? '');
+require_once __DIR__ . '/koneksi.php';
+require_once __DIR__ . '/fungsi.php';
+
+$nama  = ($_POST['txtNama'] ?? '');
+$email = ($_POST['txtEmail'] ?? '');
+$pesan = ($_POST['txtPesan'] ?? '');
+
+if (strlen($nama) < 3) {
+    echo "Nama minimal 3 karakter";
+    exit;
+}
+
+if (strlen($pesan) < 10) {
+    echo "Pesan minimal 10 karakter";
+    exit;
+}
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-  $_SESSION['flash_error'] = 'Akses tidak valid.';  
+  $_SESSION['flash_error'] = 'Akses tidak valid.';
+ redirect_ke('index.php#contact');  
 }
 
 $errors = []; 

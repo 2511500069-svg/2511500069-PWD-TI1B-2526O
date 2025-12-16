@@ -16,4 +16,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>validasi panjang input</li>
   <li>menambahkan karakter</li>
   <li>buat kolom captcha setelah kolom pesan</li>
+  <li>memunculkan notifikasi pada captcha</li>
   </ol>

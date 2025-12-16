@@ -7,16 +7,6 @@ $nama  = ($_POST['txtNama'] ?? '');
 $email = ($_POST['txtEmail'] ?? '');
 $pesan = ($_POST['txtPesan'] ?? '');
 
-if (strlen($nama) < 3) {
-    echo "Nama minimal 3 karakter";
-    exit;
-}
-
-if (strlen($pesan) < 10) {
-    echo "Pesan minimal 10 karakter";
-    exit;
-}
-
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
   $_SESSION['flash_error'] = 'Akses tidak valid.';
  redirect_ke('index.php#contact');  
@@ -36,6 +26,14 @@ if ($email === '') {
 
 if ($pesan === '') {
   $errors[] = 'Pesan wajib diisi.';
+}
+
+if (strlen($nama) < 3) {
+    $errors[] = 'Nama minimal 3 karakter.';
+}
+
+if (strlen($pesan) < 10) {
+    $errors[] = 'Pesan minimal 10 karakter.';
 }
 
 if (!empty($errors)) {

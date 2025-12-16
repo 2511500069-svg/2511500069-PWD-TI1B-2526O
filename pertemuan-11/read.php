@@ -26,4 +26,8 @@ $q = mysqli_query($conn, $sql);
         <?php 
     $Putri++;
     endwhile; ?>
+
+<td><?= $row['pesan']; ?></td>
+<td><?= $row['dcreated_at']; ?></td>
+
 </table>

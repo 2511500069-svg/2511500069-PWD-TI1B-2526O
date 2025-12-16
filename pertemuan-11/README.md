@@ -17,4 +17,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>menambahkan karakter</li>
   <li>buat kolom captcha setelah kolom pesan</li>
   <li>memunculkan notifikasi pada captcha</li>
+  <li>mengekspor tbltamu ke sql</li>
   </ol>

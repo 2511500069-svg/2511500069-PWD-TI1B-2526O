@@ -3,6 +3,8 @@ require 'koneksi.php';
 
 $sql = "SELECT * FROM tbl_tamu ORDER BY cid DESC";
 $q = mysqli_query($conn, $sql);
+
+$no = 1;
 ?>
 <table border="1" cellpadding="8" cellspacing="0">
     <tr>
@@ -11,23 +13,19 @@ $q = mysqli_query($conn, $sql);
         <th>Nama</th>
         <th>Email</th>
         <th>Pesan</th>
+        <th>Created At</th>
     </tr>
 
-    <?php 
-    $Putri=1;
-    while ($row = mysqli_fetch_assoc($q)): ?>
+    <?php while ($row = mysqli_fetch_assoc($q)): ?>
         <tr>
-            <td><?= $Putri; ?></td>
+            <td><?= $no++; ?></td>
             <td><?= $row['cid']; ?></td>
             <td><?= htmlspecialchars($row['cnama']); ?></td>
             <td><?= htmlspecialchars($row['cemail']); ?></td>
             <td><?= nl2br(htmlspecialchars($row['cpesan'])); ?></td>
+            <td>
+              <?= date("d M Y H:i:s", strtotime($row['dcreated_at'])); ?>
+    </td>
         </tr>
-        <?php 
-    $Putri++;
-    endwhile; ?>
-
-<td><?= $row['pesan']; ?></td>
-<td><?= $row['dcreated_at']; ?></td>
-
+        <?php endwhile; ?>
 </table>

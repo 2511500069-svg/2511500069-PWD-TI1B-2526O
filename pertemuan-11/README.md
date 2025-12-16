@@ -14,4 +14,6 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>mengecek request method</li>
   <li>INSERT tbl_tamu dengan prepared statement mysqli</li>
   <li>validasi panjang input</li>
+  <li>menambahkan karakter</li>
+  <li>buat kolom captcha setelah kolom pesan</li>
   </ol>

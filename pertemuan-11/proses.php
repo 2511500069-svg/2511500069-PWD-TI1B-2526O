@@ -36,6 +36,10 @@ if (strlen($pesan) < 10) {
     $errors[] = 'Pesan minimal 10 karakter.';
 }
 
+$captcha = $_POST['captcha'] ?? '';
+if ($captcha != 5)  {
+  $errors[] = 'Jawaban captcha salah.';
+}
 if (!empty($errors)) {
   $_SESSION['old'] =[
     'nama'   => $nama,

@@ -10,4 +10,9 @@ Proses saya mengerjakan TRY OUT ini sebagai berikut:<br>
   <li>membuat tabel baru di phpmyadmin</li>
   <li>menambahkan method post di blabla_update.php</li>
   <li>add method post di proses.php</li>
+  <li>tambah validasi di blabla update</li>
+  <li>tambah validasi blabla delete</li>
+  <li>validasi proses update php</li>
+  <li>valdasi proses php</li>
+  <li>buat sanitasi di keren_update.php</li>
   </ol>

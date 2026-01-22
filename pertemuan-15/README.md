@@ -14,5 +14,6 @@ Proses saya mengerjakan TRY OUT ini sebagai berikut:<br>
   <li>tambah validasi blabla delete</li>
   <li>validasi proses update php</li>
   <li>valdasi proses php</li>
-  <li>buat sanitasi di keren_update.php</li>
+  <li>buat sanitasi di blabla_update.php</li>
+  <li>sanitasi proses update php</li>
   </ol>

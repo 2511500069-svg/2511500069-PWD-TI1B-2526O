@@ -6,5 +6,6 @@ Kelompok: TI1B<br>
 <br>
 Proses saya mengerjakan UAS ini sebagai berikut:<br>
 <ol>
-  <li>mengekastrak bahan uas ke folder pertemuan 16 </li>
+  <li>mengekstrak bahan uas ke folder pertemuan 16 </li>
+  <li>buat tabel baru dengan nama pengunjung</li>
   </ol>

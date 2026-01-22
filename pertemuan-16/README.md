@@ -12,6 +12,7 @@ Proses saya mengerjakan UAS ini sebagai berikut:<br>
   <li>insert ke tabel pengunjung</li>
   <li>validasi proses pengunjung php</li>
   <li>menambah validasi di edit pengunjung php</li>
-  
+  <li>menambah pengunjung update</li>
+
 
   </ol>

@@ -9,4 +9,6 @@ Proses saya mengerjakan UAS ini sebagai berikut:<br>
   <li>mengekstrak bahan uas ke folder pertemuan 16 </li>
   <li>buat tabel baru dengan nama pengunjung</li>
   <li>menambahkan sanitasi pada file proses pengunjung php</li>
+  <li>insert ke tabel pengunjung</li>
+
   </ol>

@@ -20,5 +20,5 @@ Proses saya mengerjakan TRY OUT ini sebagai berikut:<br>
   <li>tambah file baru read_blabla.php</li>
   <li>file baru edit_blabla.php<li>
   <li>tambah file baru blabla_update.php</li>
-  <li>tambah file baru read_blabla.php</li>
+  <li>tambah file baru blabla_delete.php</li>
   </ol>

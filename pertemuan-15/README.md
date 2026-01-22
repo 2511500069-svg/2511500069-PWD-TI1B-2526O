@@ -7,5 +7,6 @@ Kelompok: TI1B<br>
 Proses saya mengerjakan TRY OUT ini sebagai berikut:<br>
 <ol>
   <li>mengcopy file Ke pertemuan 15 </li>
-
+  <li>membuat tabel baru di phpmyadmin</li>
+  <li>menambahkan method post di blabla_update.php</li>
   </ol>

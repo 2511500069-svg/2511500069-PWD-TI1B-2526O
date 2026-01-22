@@ -13,6 +13,7 @@ Proses saya mengerjakan UAS ini sebagai berikut:<br>
   <li>validasi proses pengunjung php</li>
   <li>menambah validasi di edit pengunjung php</li>
   <li>menambah pengunjung update</li>
+  <li>tambah sanitasi di pengunjung update.php</li>
 
 
   </ol>

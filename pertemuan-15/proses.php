@@ -122,4 +122,4 @@ if (isset($_POST['txtNama'])) {
   }
 
   redirect_ke('index.php#contact');
-} 
+}

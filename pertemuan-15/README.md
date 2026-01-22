@@ -17,4 +17,5 @@ Proses saya mengerjakan TRY OUT ini sebagai berikut:<br>
   <li>buat sanitasi di blabla_update.php</li>
   <li>sanitasi proses update php</li>
   <li>konsep PRG di proses update php</li>
+  <li>tambah file baru read_blabla.php</li>
   </ol>
